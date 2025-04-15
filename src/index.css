@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#meu-video {
+  width: 100%; /* Faz o vídeo ocupar toda a largura disponível */
+  max-width: 600px; /* Limita a largura máxima para 600px */
+  height: auto; /* Mantém a proporção do vídeo */
+  border: 2px solid #e20000; /* Adiciona uma borda ao redor do vídeo */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para dar destaque */
+}
+
